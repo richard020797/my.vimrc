@@ -1,0 +1,58 @@
+## VIM COMMANDS ##
+
+### a: insert after __  i: insert before __  A: insert end of line ___  I: insert beginning
+
+## o: new line and insert
+
+### :n: goes to line n ( :27 )
+
+^u: up half screenfull
+
+^d: down half screenfull
+
+# ZZ: same as :wq
+
+### n,m w name: writes from n to m in a name.file
+
+### dw: delete word ahead __  db: delete word back __  dd: delete line ___  d$: delete to end ___  d^: delete to beginning
+
+### yy: yank current line __  y$: yank to end __  yw: yank to end of word __  nyy: yank n lines
+
+### p: paste yanked below __  P: paste above __  "np: paste from n buffer ( we have 9 yei! )
+
+### u: undo __  U: restore line 
+
+# J: join beginning next line to end this line
+
+### ^l: in insert mode creates a page brake (for printers)
+
+### n: before any command we can put n times we want it to be executed
+
+### r: replace character
+
+### cw: replace current word
+
+### cc: yanks whole line
+
+### :/: search pattern foward
+
+### :?: search pattern before
+
+### :g/pat1/s//pat2/g replace every occurrence of pat1 with pat2
+
+
+############################## FILE MANAGEMENT ###########################
+
+### :w: write
+
+### :e: start editing new file
+
+### :r: read from file
+
+### :[range]wq[!]: writes & quites but only lines of range
+
+### :e[dit]! {file}: Edit {file} always. Discard any changes to the current buffer.
+
+### :r !{{ command }}: inserts output from command typed
+
+
