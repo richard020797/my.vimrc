@@ -1,0 +1,289 @@
+    1  cosmic-ray new-config config.yml
+    2  cosmic-ray init config.yml my_session
+    4  cosmic-ray new-config config.yml
+    5  cosmic-ray init config.yml my_session
+    6  pip install cosmic-ray-celery3-engine
+    7  pip install -e .[dev,test]
+    9  pip install -e .[dev,test]
+   10  ls -la
+   16  ls -la
+   18  ls -la
+   19  cd cosmic-ray/
+   22  cosmic-ray new-config config.yml
+   24  cosmic-ray init config.yml my_session
+   25  cd cosmic-ray/
+   28  cosmic-ray init config.yml my_session
+   29  cosmic-ray new-config config.yml
+   30  cosmic-ray init config.yml my_session
+   31  pip install cosmic-ray-pytest
+   32  cd cosmic-ray/test/test_project/
+   33  cosmic-ray init cosmic-ray.pytest.local.conf pytest-local
+   39  git clone "https://github.com/sixty-north/cosmic-ray.git"
+   41  cp cosmic-ray/ ../TestTalk/
+   42  cp -r cosmic-ray/ ../TestTalk/
+   46  rm -rf cosmic_ray/
+   49  vim cosmic-ray/test/test_project/cosmic-ray.pytest.local.conf 
+   50  ls -la
+   51  cd cosmic-ray/test/test_project/
+   52  ls -la
+   56  ls -la
+   57  cat cosmic-ray.pytest.local.conf 
+   58  cat cosmic-ray.pytest.celery3.conf 
+   59  cat cosmic-ray.pytest.local.conf 
+   60  ls -la
+   61  vim pytest-local.json 
+   62  vim cosmic-ray.pytest.local.conf 
+   63  ls -la
+   64  vim cosmic-ray.pytest.local.conf 
+   65  ls -la
+   69  ls -la
+   71  cosmic-ray init cosmic-ray.pytest.local.conf example
+   72  cosmic-ray init cosmic-ray.unittest.local.conf example-session
+   73  pip install cosmic-ray-celery3-engine
+   74  cd cosmic-ray/plugins/test-runners/pytest/cosmic_ray_pytest_runner/
+   77  ls -la
+   80  cd execution-engines/
+   81  ls -la
+   83  ls -la
+   86  cosmic-ray new-config config.yml
+   87  cosmic-ray init config.yml my_session
+   88  cosmic-ray new-config config.yml
+   89  cosmic-ray init config.yml my_session
+   90  cosmic-ray init cosmic-ray.unittest.local.conf example-session
+   91  ls cosmic-ray/cosmic_ray/util.py cd ..
+   92  pip install -e .[dev,test]
+   93  cd cosmic-ray/
+   94  pip install -e .[dev,test]
+   96  ls -la
+   97  cosmic-ray init cosmic-ray.pytest.local.conf pytest-local
+   99  cosmic-ray init cosmic-ray.pytest.local.conf pytest-local
+  100  cd cosmic-ray/
+  101  ls -la
+  102  cd cosmic_ray.egg-info/
+  107  ls -la
+  109  ls -la
+  111  ls -la
+  114  cosmic-ray init cosmic-ray.pytest.local.conf pytest-local
+  115  ls -la
+  116  cosmic-ray exec pytest-local
+  117  cosmic-ray dump pytest-local | cr-report
+  119  cosmic-ray init config.yml my_session
+  121  cosmic-ray init config.yml my_session
+  123  ls -la
+  125  ls -la
+  128  cosmic-ray init config.yml my_session
+  130  cosmic-ray init config.yml my_session
+  132  cosmic-ray init config.yml my_session
+  134  cosmic-ray init config.yml my_session
+  136  cosmic-ray init config.yml my_session
+  138  cosmic-ray init config.yml my_session
+  142  cosmic-ray init config.yml my_session
+  143  cosmic-ray init local.conf my_session
+  144  ls -la
+  148  cosmic-ray init local.conf my_session
+  151  ls -la
+  152  rm -rf cosmic-ray/
+  163  grep -r "user.referral_code"
+  165  ls -la
+  167  rm -rf tests/
+  168  ls -la
+  178  grep -r "only_count"
+  181  docker-compose -f local.yml run --rm django python manage.py test
+  182  sudo pkill -9 postgres
+  183  docker-compose -f local.yml run --rm django python manage.py test
+  184  docker-compose -f ./local.yml build
+  185  docker-compose -f local.yml run --rm django python manage.py test
+  186  docker-compose -f local.yml run --rm django python manage.py test
+  204  git rebase --abort
+  216  git checkout --force 4eb01e7a7e57044942f3d0eaa40271943842cbbf
+  254  pipenv install -e .[dev,test]
+  255  pip install -e .[dev,test]
+  260  pipenv install cosmic-ray-celery3-engine
+  262  pipenv install cosmic-ray-pytest
+  268  pytest code/test_1_hypothesis.py -vlx
+  273  pytest code/test_1_hypothesis.py -vlx
+  275  pytest code/test_3_contracts.py-vlx
+  276  pytest code/test_3_contracts.py -vlx
+  277  pytest code/test_4_contracts.py -vlx
+  279  ls -la
+  281  pytest code/test_4_contracts.py -vlx
+  282  pytest test1.py -vlx
+  283  pytest test1.py -vlx
+  285  pytest test1.py -vlx
+  286  pytest test1.py -vlx
+  287  pytest test1.py -vlx
+  288  pytest test1.py -lvx
+  289  pytest test1.py -v
+  290  pytest test1.py -v
+  291  pytest test1.py -vxls
+  293  pytest test1.py -vxls
+  295  pytest test1.py -vxls
+  296  pytest test1.py -vxls
+  298  pytest test1.py -vxls
+  300  pytest test1.py -vxls
+  303  pytest code/test_1_hypothesis.py -vlx
+  309  ls -la
+  313  ls -la
+  315  ls -la
+  320  psql -h 172.18.0.2 -db grin -U AkfjbzyDTZrDPkSpdUbGWqGfhGfxUPXi -p YPhseQUgFm8mfRLYNqqnpszmSi4PgB4uJR68tE5bCK8HyntM2Hoqj9R7ADI62QI2
+  321  psql -h 172.18.0.2 -db grin -U AkfjbzyDTZrDPkSpdUbGWqGfhGfxUPXi
+  322  psql -h 172.18.0.2 -dbname grin -U AkfjbzyDTZrDPkSpdUbGWqGfhGfxUPXi
+  323  psql -h 172.18.0.2 -U AkfjbzyDTZrDPkSpdUbGWqGfhGfxUPXi
+  324  psql -help
+  325  psql --help
+  326  psql -h 172.18.0.2 -d grin -U AkfjbzyDTZrDPkSpdUbGWqGfhGfxUPXi
+  330  ls -la
+  332  grep -r "reverse('"
+  338  git checkout -b ra_feature_testing_objs_staging
+  341  grep -r test_db_controllers
+  342  grep -r "test_db_controllers"
+  346  ls -la core/staging/api/
+  347  ls -la core/staging/tests/
+  349  docker-compose -f local.yml run --rm django python manage.py test
+  351  docker-compose -f local.yml run --rm django python manage.py test
+  352  docker-compose -f local.yml run --rm django python manage.py test core.staging.tests.test_db_controllers
+  353  docker-compose -f local.yml run --rm django python manage.py test
+  355  docker-compose -f local.yml run --rm django python manage.py test core.staging.tests.test_api_controllers
+  356  docker-compose -f local.yml run --rm django python manage.py test
+  357  docker-compose -f local.yml run --rm django python manage.py test core.staging.tests.test_db_controllers
+  358  docker-compose -f local.yml run
+  359  ls -la
+  361  docker-compose -f local.yml run
+  362  ls -la
+  364  docker-compose -f local.yml run
+  365  docker-compose -f ./local.yml up
+  375  ls -la
+  376  rm -rf .hypothesis/
+  387  rm -rf code/.hypothesis/
+  405  pytest code/test_1 -xlvs
+  406  pytest code/test_1.py -xlvs
+  407  pytest code/test_1.py -xlvs
+  408  pytest code/test_1.py -xlvs
+  409  pytest code/test_1.py -xlvs
+  418  ls -la
+  423  pytest code/test_1.py -xvls
+  424  pytest code/test_1.py -xvls
+  425  pytest code/test_1.py -xvls
+  426  pytest code/test_1.py -xvls
+  427  pytest code/test_1.py -xvls
+  429  pytest code/test_1.py -xvls
+  431  pytest code/test_1.py -xvls
+  432  pytest code/test_1.py -xvls
+  437  git checkout -b test
+  440  git branch -D test 
+  448  docker-compose -f local.yml run --rm django python manage.py test
+  449  sudo pkill -9 postgres
+  451  docker-compose -f local.yml run --rm django python manage.py test
+  452  docker-compose -f local.yml run --rm django python manage.py test grin.core.staging.tests.test_db_controllers
+  456  grep -r "context"
+  457  grep -r "context.city"
+  458  grep -r "context.city"
+  459  grep -r "city = "
+  463  ls -la
+  465  grep -r "city = "
+  466  grep -r "city = "
+  467  tree -L 1
+  468  tree -L 2
+  481  grep -r "send_message"
+  483  ls -la
+  484  dpkg -i zoom_amd64.deb 
+  485  sudo dpkg -i zoom_amd64.deb 
+  487  sudo dpkg -i zoom_amd64.deb 
+  493  docker exec -it grin_api_django_1 bash
+  494  docker exec -it grin_api_django_1 /bin/bash
+  495  docker exec -it grin_api_django_1 /bin/sh
+  497  docker exec -it grin_api_django_1 /bin/sh
+  506  mv -r ../
+  509  ls -la
+  511  ls -la
+  512  rm -rf Desktop/
+  513  ls -la
+  517  ls -la
+  520  grep -r "APIMixin"
+  535  ssh -i "/home/richi/Documents/GRIN.pem" Ubuntu@18.209.185.214
+  536  ssh -i "/home/richi/Documents/GRIN.pem" root@ec2-18-209-185-214.compute-1.amazonaws.com
+  544  psql -h grin-production-replica.cwwr0ygnrchu.us-east-1.rds.amazonaws.com -U grin -d grin
+  545  psql -U grin_postgres -h grin-production.cwwr0ygnrchu.us-east-1.rds.amazonaws.com
+  546  psql -U grin_postgres -h grin-production-replica.cwwr0ygnrchu.us-east-1.rds.amazonaws.com
+  547  psql -U grin_postgres -h grin-production-replica.cwwr0ygnrchu.us-east-1.rds.amazonaws.com -d grin
+  549  psql -U grin_postgres -h grin-production-replica.cwwr0ygnrchu.us-east-1.rds.amazonaws.com -d grin
+  558  ssh grin_wheel -v
+  559  ssh grin_wheel -vv
+  563  ssh -i /home/richi/Documents/GRIN.pem ubuntu@ec2-18-209-185-214.compute-1.amazonaws.com
+  564  ssh -i /home/richi/Documents/GRIN.pem ubuntu@ec2-18-209-185-214.compute-1.amazonaws.com -vvvvvv
+  581  ssh -i "GRIN.
+  583  ssh -i "GRIN.pem" ubuntu@ec2-18-209-185-214.compute-1.amazonaws.com
+  584  ssh -i "GRIN.pem" root@ec2-18-209-185-214.compute-1.amazonaws.com
+  585  ps -x
+  586  ssh -i "GRIN.pem" root@ec2-18-209-185-214.compute-1.amazonaws.com -vv
+  587  ssh -i "GRIN.pem" ubuntu@ec2-18-209-185-214.compute-1.amazonaws.com -vv
+  588  docker exec -it grin_api_django_1 /bin/sh
+  590  ls -la
+  593  ls -la
+  595  ls -la
+  597  ls -la
+  605  sudo apt-get install unrar
+  608  ls -la
+  611  ls -la
+  619  ls -la
+  620  cat compose-prod.yml 
+  621  cat compose-dev.yml 
+  622  ls -la
+  627  ls -la
+  629  ls -la
+  632  ls -la
+  640  psql -U AkfjbzyDTZrDPkSpdUbGWqGfhGfxUPXi -dbname grin
+  641  psql -U AkfjbzyDTZrDPkSpdUbGWqGfhGfxUPXi -d grin
+  643  psql -U AkfjbzyDTZrDPkSpdUbGWqGfhGfxUPXi -d grin
+  644  psql -U AkfjbzyDTZrDPkSpdUbGWqGfhGfxUPXi -d grin -h postgres
+  646  psql -U AkfjbzyDTZrDPkSpdUbGWqGfhGfxUPXi -d grin -h 172.18.0.2
+  647  ls -la
+  648  grep -r "estimated_range"
+  662  ls -la
+  665  grep -r "first_name"
+  670  grep -r "DATABASE_URL"
+  671  ls -la
+  673  grep -r "DATABASE_URL"
+  675  grep -r "check_limit"
+  676  grep -r "relase"
+  677  grep -r "Release"
+  679  grep -r "Ingresa un "
+  683  grep -r "userfreeride"
+  684  grep -r "couponconfig"
+  686  grep -r "UserFreeRideDetail"
+  687  grep -r "userfreeride"
+  688  grep -r "grin.core.url"
+  696  grep -r "is_charger"
+  703  grep -r "export"
+  704  grep -r "export" --exclude-file='*.js'
+  705  grep -h
+  706  grep --help
+  707  grep -r "export" --exclude="*.js"
+  708  grep -r "export" --exclude="*.js" --exclude="*.html" --exclude="*.txt"
+  709  grep -r "export" --exclude="*.js" --exclude="*.html" --exclude="*.txt" --exclude="*.map"
+  711  vim ../../../Downloads/Master\ Zonas\ Grin\ -\ CSV\ django\ \(3\).csv 
+  713  grep -r ".DoesNotExists"
+  714  grep -r ".DoesNotExist"
+  716  docker-compose -f local.yml up
+  717  docker-compose -f local.yml build
+  718  docker-compose -f local.yml up
+  719  docker-compose -f local.yml build
+  720  docker-compose -f local.yml up
+  721  docker-compose -f local.yml build
+  722  docker-compose -f local.yml up
+  723  docker-compose -f local.yml buil
+  724  docker-compose -f local.yml up
+  734  grep -r "tag"
+  736  docker exec -it grin_api_django_1 /bin/sh
+  738  docker exec -it grin_api_django_1 /bin/sh
+  741  docker exec -it grin_api_django_1 /bin/sh
+  743  docker exec -it grin_api_django_1 /bin/sh
+  745  0~docker-compose -f local.yml run --rm django python manage.py migrate
+  746  docker-compose -f local.yml run --rm django python manage.py migrate
+  747  grep -r "referred_rides_amount1"
+  748  psql -h 172.18.0.2 -d grin -U AkfjbzyDTZrDPkSpdUbGWqGfhGfxUPXi
+  749  docker exec -it grin_api_postgres_1 bash
+  761  psql -U grin_postgres -h grin-production-replica.cwwr0ygnrchu.us-east-1.rds.amazonaws.com -d grin
+  762  docker-compose -f local.yml up
+  765  history -> commands.txt
+  766  history | grep -> commands.txt
